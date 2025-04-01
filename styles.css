@@ -1,4 +1,9 @@
 /* Тут пиши основные стили */
+title {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
+
 
 
 @media (max-width: 800px) {
