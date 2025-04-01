@@ -1,15 +1,48 @@
 /* Тут пиши основные стили */
-title {
+.title {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
-.art-layer{
+.art-layer {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+.code {
+    font-family: "Courier New", monospace;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 36px;
+    display: flex;
+    background-color: rgb(250, 250, 250);
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 14px 30px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#current {
+    color: #d0021b
 }
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
