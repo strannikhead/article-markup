@@ -1,30 +1,54 @@
 /* Тут пиши основные стили */
+.logo {
+    margin: 10px 38px;
+    width: fit-content;
+}
+
 .title {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
 .art-layer {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    line-height: 33px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.84);
+
+
+}
+
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
 }
 
 .code {
     font-family: "Courier New", monospace;
+    background-color: rgb(242, 242, 242);
+}
+
+nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    background-color: rgb(250, 250, 250);
 }
 
 nav ul {
     list-style: none;
-    margin-left: 36px;
     display: flex;
-    background-color: rgb(250, 250, 250);
+    flex-direction: row;
 }
 
 nav li {
     margin: 0;
+
 }
 
 nav a {
     display: block;
-    padding: 14px 30px;
+    padding: 10px 20px;
     color: #333;
     text-decoration: none;
     font-size: 24px;
@@ -34,15 +58,49 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    cursor: url('responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png'), auto;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 34px;
 }
 
 #current {
     color: #d0021b
 }
 
-
+img{
+    width: 100%;
+}
 @media (max-width: 800px) {
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
      */
+    nav ul {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 520px;
+        margin: 0 20px 0 20px;
+    }
+
+    .art-layer {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
 }
