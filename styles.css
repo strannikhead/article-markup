@@ -3,7 +3,9 @@ title {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
-
+.art-layer{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+}
 
 
 @media (max-width: 800px) {
